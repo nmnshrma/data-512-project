@@ -9,7 +9,7 @@ Evaluation Bias towards favored writers in long-time readers
 To quantifiably prove assessment and evaluation biases amongst long-time readers of authors using the [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html). The project is intented to produce principled, verifiable research that aims to quantify human biases in a (very narrow) space, which are, book reviews across the amazon and kindle platform.
 
 
-### Unknowns and dependencies:
+__Unknowns and dependencies__:
 Several unknowns exist at this moment.
 
 ## Data Source
@@ -20,7 +20,7 @@ The data is split into two parts:
 1. The Review Data: The key raw fields for the reviews and ratiings
 2. The Metadata: Aggregated data, containing additional information about the review
 
-### 1. Review Data
+__1. Review Data__:
 1. reviewerID - A Unique ID of the reviewer, on amazon.com
 2. asin - Unique Product ID
 3. reviewerName - Reviewer Name
@@ -32,7 +32,7 @@ The data is split into two parts:
 9. unixReviewTime - time of the review (unix time)
 10. reviewTime - time of the review (raw)
 
-### 1. Metadata
+__2. Metadata__:
 1. asin - ID of the product, e.g. 0000031852
 2. title - name of the product
 3. feature - bullet-point format features of the product
