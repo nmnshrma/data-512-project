@@ -6,7 +6,7 @@ Evaluation Bias towards favored writers in long-time readers
 
 ## Project Goals & Motivation:
 
-To quantifiably prove assessment and evaluation biases amongst long-time readers of authors using the [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html)(Jianmo Ni et al.<sup>[1]</sup>). The project is intented to produce principled, verifiable research that aims to quantify human biases in a (very narrow) space, which are, book reviews across the amazon and kindle platform.
+To quantifiably prove assessment and evaluation biases amongst long-time readers of authors using the [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html)(Julian McAuley et al.<sup>[1]</sup>). The project is intented to produce principled, verifiable research that aims to quantify human biases in a (very narrow) space, which are, book reviews across the amazon and kindle platform.
 
 
 __Unknowns and dependencies__:
@@ -14,7 +14,7 @@ Several unknowns exist at this moment.
 
 ## Data Source
 
-The partial [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html) (Jianmo Ni et al.<sup>[1]</sup>) is the key data source for the project. 
+The partial [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html) (Julian McAuley et al.<sup>[1]</sup>) is the key data source for the project. 
 
 The data is split into two parts:
 1. The Review Data: The key raw fields for the reviews and ratiings
@@ -49,7 +49,7 @@ __2. Metadata__:
 
 ## License
 
-The partial [Amazon review dataset](https://nijianmo.github.io/amazon/index.html#citation)<sup>[1]</sup> is openly available for use and experimentation. The complete dataset can be accessed upon request from the team. Citation is needed in both cases.
+The partial [Amazon review dataset](https://nijianmo.github.io/amazon/index.html#citation)(Julian McAuley et al. <sup>[1]</sup>) is openly available for use and experimentation. The complete dataset can be accessed upon request from the team. Citation is needed in both cases.
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/nmnshrma/data-512-a1/blob/master/LICENSE) file for details
 
