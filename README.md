@@ -6,7 +6,7 @@ Evaluation Bias towards favored writers in long-time readers
 
 ## Project Goals & Motivation:
 
-To quantifiably prove assessment and evaluation biases amongst long-time readers of authors using the [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html). The project is intented to produce principled, verifiable research that aims to quantify human biases in a (very narrow) space, which are, book reviews across the amazon and kindle platform.
+To quantifiably prove assessment and evaluation biases amongst long-time readers of authors using the [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html)(Jianmo Ni et al.<sup>[1]</sup>). The project is intented to produce principled, verifiable research that aims to quantify human biases in a (very narrow) space, which are, book reviews across the amazon and kindle platform.
 
 
 __Unknowns and dependencies__:
