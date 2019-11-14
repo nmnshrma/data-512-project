@@ -21,7 +21,8 @@ The data is split into two parts:
 2. The Metadata: Aggregated data, containing additional information about the review
 
 __1. Review Data__:
-| __ID__ | __Field__          | __Description__                                                          | __Type__                 |
+
+| ID | Field          | Description                                                          | Type                 |
 |----|----------------|----------------------------------------------------------------------|----------------------|
 | 1  | reviewerID     | A Unique ID of the reviewer, on amazon.com                           | string               |
 | 2  | asin           | Unique Product ID                                                    | string               |
