@@ -21,31 +21,32 @@ The data is split into two parts:
 2. The Metadata: Aggregated data, containing additional information about the review
 
 __1. Review Data__:
-1. reviewerID - A Unique ID of the reviewer, on amazon.com
-2. asin - Unique Product ID
-3. reviewerName - Reviewer Name
-4. vote - Helpful Votes
-5. style - a disctionary of the product metadata, e.g., "Format" is "Hardcover"
-6. reviewText - Blob text of the review
-7. overall - product rating
-8. summary - summary of the review
-9. unixReviewTime - time of the review (unix time)
-10. reviewTime - time of the review (raw)
+| __ID__ | __Field__          | __Description__                                                          | __Type__                 |
+|----|----------------|----------------------------------------------------------------------|----------------------|
+| 1  | reviewerID     | A Unique ID of the reviewer, on amazon.com                           | string               |
+| 2  | asin           | Unique Product ID                                                    | string               |
+| 3  | reviewerName   | Reviewer Name                                                        | string               |
+| 4  | vote           | Helpful Votes                                                        | int                  |
+| 5  | style          | a disctionary of the product metadata, e.g., "Format" is "Hardcover" | dict                 |
+| 6  | reviewText     | Blob text of the review                                              | blob text            |
+| 7  | overall        | product rating                                                       | float                |
+| 8  | summary        | summary of the review                                                | string               |
+| 9  | unixReviewTime | time of the review (unix time)                                       | int                  |
+| 10 | reviewTime     | time of the review (raw)                                             | string "mm dd, yyyy" |
 
 __2. Metadata__:
-1. asin - ID of the product, e.g. 0000031852
-2. title - name of the product
-3. feature - bullet-point format features of the product
-4. description - description of the product
-5. price - price in US dollars (at time of crawl)
-6. imUrl - url of the product image
-7. related - related products (also bought, also viewed, bought together, buy after viewing)
-8. salesRank - sales rank information
-9. brand - brand name
-10. categories - list of categories the product belongs to
-11. tech1 - the first technical detail table of the product
-12. tech2 - the second technical detail table of the product
-13. similar - similar product table
+| __ID__ | __Field__       | __Description__                                                                     | __Type__      |
+|----|-------------|---------------------------------------------------------------------------------|-----------|
+| 1  | asin        | ID of the product, e.g. 0000031852                                              | string    |
+| 2  | title       | name of the product                                                             | string    |
+| 3  | feature     | bullet                                                                          | list      |
+| 4  | description | description of the product                                                      | blob text |
+| 5  | price       | price in US dollars (at time of crawl)                                          | float     |
+| 6  | imUrl       | url of the product image                                                        | string    |
+| 7  | related     | related products (also bought, also viewed, bought together, buy after viewing) | dict      |
+| 8  | salesRank   | sales rank information                                                          | dict      |
+| 9  | brand       | brand name                                                                      | string    |
+| 10 | categories  | list of categories the product belongs to                                       | list      |
 
 ## License
 
