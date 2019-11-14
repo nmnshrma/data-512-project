@@ -35,7 +35,8 @@ __1. Review Data__:
 | 10 | reviewTime     | time of the review (raw)                                             | string "mm dd, yyyy" |
 
 __2. Metadata__:
-| __ID__ | __Field__       | __Description__                                                                     | __Type__      |
+
+| ID | Field       | Description                                                                     | Type      |
 |----|-------------|---------------------------------------------------------------------------------|-----------|
 | 1  | asin        | ID of the product, e.g. 0000031852                                              | string    |
 | 2  | title       | name of the product                                                             | string    |
