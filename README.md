@@ -6,6 +6,8 @@ Evaluation Bias towards favored writers in long-time readers
 
 ## Project Goals & Motivation:
 
+The 
+
 To quantifiably prove assessment and evaluation biases amongst long-time readers of authors using the [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html)(Julian McAuley et al.<sup>[1]</sup>). The project is intented to produce principled, verifiable research that aims to quantify human biases in a (very narrow) space, which are, book reviews across the amazon and kindle platform.
 
 
@@ -15,6 +17,8 @@ Several unknowns exist at this moment.
 ## Data Source
 
 The partial [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html) (Julian McAuley et al.<sup>[1]</sup>) is the key data source for the project. 
+
+Note: The dataset hosted in the project will represented 5% representative sample drawn from the original dataset, after due permission from the team that worked on gathering the source dataset, i.e., Juliam McAuley et al.
 
 The data is split into two parts:
 1. The Review Data: The key raw fields for the reviews and ratiings
@@ -61,4 +65,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 1. Justifying recommendations using distantly-labeled reviews and fined-grained aspects (Data Source)
 Jianmo Ni, Jiacheng Li, Julian McAuley
 _Empirical Methods in Natural Language Processing (EMNLP), 2019_, [pdf](http://cseweb.ucsd.edu/~jmcauley/pdfs/emnlp19a.pdf)
-
