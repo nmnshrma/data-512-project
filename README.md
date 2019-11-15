@@ -6,23 +6,23 @@ Evaluation Bias towards favored writers in long-time readers
 
 ## Project Goals & Motivation:
 
-The 
+The primary objective of the research to evaluate cognitive biases amongst real world users using apt metrics. The project will develop on a vast amount of [research](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=%22cognitive+bias%22&btnG=) that already exists in the space. The research's other motive is to create accessible research, that can be understood by experts in fields not related to machine learning.
 
+### Problem Statement:
 To quantifiably prove assessment and evaluation biases amongst long-time readers of authors using the [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html)(Julian McAuley et al.<sup>[1]</sup>). The project is intented to produce principled, verifiable research that aims to quantify human biases in a (very narrow) space, which are, book reviews across the amazon and kindle platform.
 
-
 __Unknowns and dependencies__:
-Several unknowns exist at this moment.
+1. Exhaustiveness of data is unconfirmed
 
 ## Data Source
 
-The partial [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html) (Julian McAuley et al.<sup>[1]</sup>) is the key data source for the project. 
+The partial [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html) (Julian McAuley et al.<sup>[1]</sup>) is the key data source for the project. An extension of the research questions may be applied to the metadata.
 
 Note: The dataset hosted in the project will represented 5% representative sample drawn from the original dataset, after due permission from the team that worked on gathering the source dataset, i.e., Juliam McAuley et al.
 
 The data is split into two parts:
-1. The Review Data: The key raw fields for the reviews and ratiings
-2. The Metadata: Aggregated data, containing additional information about the review
+1. __The Review Data__: The key raw fields for the reviews and ratiings
+2. __The Metadata__: Aggregated data, containing additional information about the review
 
 __1. Review Data__:
 
