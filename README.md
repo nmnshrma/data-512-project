@@ -13,15 +13,21 @@ To quantifiably prove assessment and evaluation biases amongst long-time readers
 
 __Research Question 1.1: What is the impact of cognition biases amongst reviewers on the author ratings on Amazon__
 
-- __Hypothesis__: Ardent promoters and detractors for an author lead to significant inflated and deflated ratings for the author, and/or their work.
+* __Hypothesis__: Ardent promoters and detractors for an author lead to significant inflated and deflated ratings for the author, and/or their work.
+
+* __Proposed Methodology__:
+    *  
 
 __Research Question 1.2: Building upon RQ1.1, what is the scale of the distortion in user level recommendations__
 
-- __Hypothesis__: The inflated/deflated ratings for particular authors and works lead to significantly distorted recommendations at any point in time.
+* __Hypothesis__: The inflated/deflated ratings for particular authors and works lead to significantly distorted recommendations at any point in time.
+
+* __Proposed Methodology__:
+    *  
 
 __Unknowns and dependencies__:
 1. Exhaustiveness of data is unconfirmed by the author
-2. 
+2. Point in time calculations will need significant compute power
 
 ## Data Source
 
