@@ -11,8 +11,17 @@ The primary objective of the research to evaluate confirmation biases amongst re
 ### Problem Statement:
 To quantifiably prove assessment and evaluation biases amongst long-time readers of authors using the [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html) (Julian McAuley et al.<sup>[1]</sup>). The project is intented to produce principled, verifiable research that aims to quantify human biases in a (very narrow) space, which are, book reviews across the amazon and kindle platform.
 
+__Research Question 1.1: What is the impact of cognition biases amongst reviewers on the author ratings on Amazon__
+
+- __Hypothesis__: Ardent promoters and detractors for an author lead to significant inflated and deflated ratings for the author, and/or their work.
+
+__Research Question 1.2: Building upon RQ1.1, what is the scale of the distortion in user level recommendations__
+
+- __Hypothesis__: The inflated/deflated ratings for particular authors and works lead to significantly distorted recommendations at any point in time.
+
 __Unknowns and dependencies__:
-1. Exhaustiveness of data is unconfirmed
+1. Exhaustiveness of data is unconfirmed by the author
+2. 
 
 ## Data Source
 
