@@ -58,7 +58,7 @@ __2. Metadata__:
 
 The dataset is openly available for use and experimentation. The complete dataset can be accessed upon request from the team. Citation is needed in both cases.
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/nmnshrma/data-512-a1/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/nmnshrma/data-512-project/blob/master/LICENSE) file for details
 
 ## Acknowledgments & Citations:
 
