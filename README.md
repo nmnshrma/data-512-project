@@ -24,6 +24,10 @@ __Research Question 1.2: Building upon RQ1.1, what is the scale of the distortio
 
 * __Proposed Methodology__:
     *  
+    1. Collaborative Filtering, Item-Item Recommendation
+    2. Collaborative Filtering, User-Item Recommendation
+    3. Clustering (kNN) models
+    4. Singular Vector Decomposition, or SVD, models
 
 __Unknowns and dependencies__:
 1. Exhaustiveness of data is unconfirmed by the author
