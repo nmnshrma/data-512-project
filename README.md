@@ -2,7 +2,7 @@
 
 ## Project:
 
-Evaluation Bias towards favored writers in long-time readers
+Evaluation Bias amongst long-time readers towards favored authors
 
 ## Project Goals & Motivation:
 
@@ -15,15 +15,15 @@ __Research Question 1.1: What is the impact of cognition biases amongst reviewer
 
 * __Hypothesis__: Ardent promoters and detractors for an author lead to significant inflated and deflated ratings for the author, and/or their work.
 
-* __Proposed Methodology__:
-    *  
+* __Methodology/Plan__:
+   Identification of users that consistently 'upvote'
 
 __Research Question 1.2: Building upon RQ1.1, what is the scale of the distortion in user level recommendations__
 
 * __Hypothesis__: The inflated/deflated ratings for particular authors and works lead to significantly distorted recommendations at any point in time.
 
-* __Proposed Methodology__:
-    *  
+* __Methodology/Plan__:
+    
     1. Collaborative Filtering, Item-Item Recommendation
     2. Collaborative Filtering, User-Item Recommendation
     3. Clustering (kNN) models
