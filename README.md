@@ -1,4 +1,4 @@
-# Measuring Recommender Systems robustness against review rbuse
+# Measuring Recommender Systems robustness against review abuse
 
 ## Project:
 
